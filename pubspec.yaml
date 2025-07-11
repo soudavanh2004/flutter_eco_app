@@ -1,0 +1,56 @@
+name: front_end_ecoapp_new
+description: "A Flutter project for real-time object detection with YOLOv8n."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  # cupertino_icons: ^1.0.8
+  # google_mlkit_object_detection: ^0.10.0
+  url_launcher: ^6.1.12 
+  camera: ^0.10.0+4
+  get: ^4.6.6
+  flutter_map: ^6.1.0  # Use the latest version
+  latlong2: ^0.9.1
+  cached_network_image: ^3.3.1
+  http_parser: ^4.0.2
+  permission_handler: ^12.0.0+1
+  # firebase_core: ^2.24.2  # ใช้เวอร์ชันล่าสุดที่เสถียร
+  cloud_firestore: ^5.4.4
+  # tflite_flutter: ^0.10.4
+  http: ^1.2.2
+  path_provider: ^2.1.4
+  path: ^1.8.3
+  image_picker: ^1.1.2
+  firebase_core: ^3.13.1
+  shared_preferences: ^2.2.3  # Added for auth storage
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+  # fonts:
+  #   - family: Roboto
+  #     fonts:
+  #       - asset: assets/fonts/Roboto/Roboto-VariableFont_wdth,wght.ttf
+  #       - asset: assets/fonts/Roboto/Roboto-Italic-VariableFont_wdth,wght.ttf
+  #         style: italic
+  #   - family: RobotoCondensed
+  #     fonts:
+  #       - asset: assets/fonts/Roboto_Condensed/RobotoCondensed-VariableFont_wght.ttf
+  #       - asset: assets/fonts/Roboto_Condensed/RobotoCondensed-Italic-VariableFont_wdth,wght.ttf
+  #         style: italic
+  #   - family: NotoSansLao
+  #     fonts:
+  #       - asset: assets/fonts/Noto_Sans_Lao/NotoSansLao-VariableFont_wdth,wght.ttf
